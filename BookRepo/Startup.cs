@@ -12,11 +12,9 @@ namespace BookRepo
 {
     public class Startup
     {
-        private readonly ILogger<Startup> _logger;
-        public Startup(ILogger<Startup> logger, IConfiguration configuration)
+                public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            _logger = logger;
         }
 
         public IConfiguration Configuration { get; }
@@ -37,7 +35,6 @@ namespace BookRepo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            _logger.LogInformation("Starting the app");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

@@ -63,3 +63,4 @@ C:\Users\eolse\source\repos\BookRepo\BookRepo\bin\Debug\net5.0\runtimes\win-x86\
 C:\Users\eolse\source\repos\BookRepo\BookRepo\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\eolse\source\repos\BookRepo\BookRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\eolse\source\repos\BookRepo\BookRepo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\eolse\source\repos\BookRepo\BookRepo\obj\Debug\net5.0\BookRepo.csprojAssemblyReference.cache
